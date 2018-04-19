@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/components",
+                "../esp-idf/esp-idf/components",
+                "../esp-idf/esp-idf/components/log/include",
+                "C:/msys32/opt/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "C_Cpp.intelliSenseEngine": "Tag Parser",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "../esp-idf/esp-idf/components",
+                    "../esp-idf/esp-idf/components/log/include",
+                    "C:/msys32/opt/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/5.2.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 3
+}
